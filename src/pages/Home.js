@@ -6,21 +6,21 @@ import SearchExercises from "../components/SearchExercises";
 import HeroBanner from "../components/HeroBanner";
 
 function Home() {
-  const [exercises, setExercises] = useState([]);
-  const [bodyPart, setBodyPart] = useState("all");
+  // const [exercises, setExercises] = useState([]);
+  // const [bodyPart, setBodyPart] = useState("all");
 
   return (
     <Box>
       <HeroBanner />
       <SearchExercises
-        setExercises={setExercises}
-        bodyPart={bodyPart}
-        setBodyPart={setBodyPart}
+        // setExercises={setExercises}
+        // bodyPart={bodyPart}
+        // setBodyPart={setBodyPart}
       />
       <Exercises
-        setExercises={setExercises}
-        exercises={exercises}
-        bodyPart={bodyPart}
+        // setExercises={setExercises}
+        // exercises={exercises}
+        // bodyPart={bodyPart}
       />
     </Box>
   );
